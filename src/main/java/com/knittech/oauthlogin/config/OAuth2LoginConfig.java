@@ -78,15 +78,15 @@ public class OAuth2LoginConfig {
 
     private ClientRegistration googleClientRegistration() {
         return CommonOAuth2Provider.GOOGLE.getBuilder("google")
-                .clientId("453204317598-1anp7eh7uck7qasrf18kqusvnrnfv6sq.apps.googleusercontent.com")
-                .clientSecret("xE7AUyv_24WaNIVZeuziVgpQ")
+                .clientId("Your_google_clientid")
+                .clientSecret("Your_google_clientSecret")
                 .build();
     }
 
     private ClientRegistration facebookClientRegistration() {
         return CommonOAuth2Provider.FACEBOOK.getBuilder("facebook")
-                .clientId("928328337333327")
-                .clientSecret("eef292e9ae32809c4eac4b242588d3db")
+                .clientId("Your_facebook_clientid")
+                .clientSecret("Your_facebook_clientSecret")
                 .build();
     }
 }
